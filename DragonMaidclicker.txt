@@ -1,10 +1,10 @@
 Let's make a game!
-		name:DragonMeido Clicker
-		by:Mossy"MossyMossMann"
-		desc:A game about doing Tasks for your Love! (totally not Miss Kobayashi)! Includes your most 	favorite Dragon(maid)s!
-		created:3/2/2026
-		updated:20/5/2026
-		version:0.1
+	name:DragonMeido Clicker
+	by:Mossy"MossyMossMann"
+	desc:A game about doing Tasks for your Love! (totally not Miss Kobayashi)! Includes your most 	favorite Dragon(maid)s!
+	created:3/2/2026
+	updated:20/5/2026
+	version:0.1
 
 Settings
 	building cost increase:104%
