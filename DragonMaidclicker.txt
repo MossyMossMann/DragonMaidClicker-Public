@@ -1,5 +1,5 @@
 Let's make a game!
-	name:DragonMeido Clicker
+	name:DragonMaid Clicker
 	by:Mossy"MossyMossMann"
 	desc:A game about doing Tasks for your Love! (totally not Miss Kobayashi)! Includes your most 	favorite Dragon(maid)s!
 	created:3/2/2026
@@ -18,9 +18,9 @@ Layout
 Buttons
 	*MaidButton
 		name:Complete Task!
-		desc:Finish a task to hire more maids or purchase other stuff (and make Kobayashi proud) 
+		desc:Finish a task to hire more maids or purchase other stuff (and make Kobayashi proud). 
 		on click:anim icon wobble
-		on click:yield 1 Completed Task
+		on click:yield 1 CompletedTask
 		icon:https://i.pinimg.com/736x/f8/4f/b3/f84fb30184d4c5822186d67edd57c845.jpg
 		no text
 		class:bigButton hasFlares
@@ -29,7 +29,7 @@ Buttons
 		tooltip class:red
 
 Resources
-	*Completed Task|Completed Tasks
+	*CompletedTask|CompletedTasks
 		name:Completed Task|Completed Tasks
 		desc:These are your Completed Tasks. Complete Tasks to purchase things. Your goal is to have as many Completed Tasks as possible to unlock greater stuff! (this is a clicker after all)
 		start with: 0
@@ -47,8 +47,8 @@ Buildings
 		name:Dragon Maid|Dragon Maids
 		desc:A Dragon Maid to help you with your tasks!.<//><b>Effect:</b><.>Completes 1 Task every 10 seconds.
 		icon:https://i.pinimg.com/736x/d6/d6/e1/d6d6e1f7a2fb64a6e215dced32546645.jpg
-		cost:10 Completed Tasks
-		on tick:yield 0.1 Completed Task
+		cost:10 CompletedTasks
+		on tick:yield 0.1 CompletedTask
 		unlocked
 
 
@@ -65,8 +65,8 @@ Upgrades
 		desc:A nice little basket to help your maid(s) while grocery shopping.<//><b>Effect:</b><.>+1 bunny/click
 		icon:https://i.pinimg.com/736x/80/80/61/8080612965fb551500e954467737ab6d.jpg
 		cost:100 Completed Tasks
-		passive:increase Completed Task yield of MaidButton by 1
-		req:10 Completed Tasks:earned
+		passive:increase CompletedTask yield of MaidButton by 1
+		req:10 CompletedTasks:earned
 
 
 
@@ -82,6 +82,6 @@ Achievements
 		
 	*Task Achievement 
 		name:That's done!
-		desc:COmplete your first Task.
-		req:1 Completed Task
+		desc:Complete your first Task.
+		req:1 CompletedTask
 		icon:https://i.pinimg.com/736x/4a/09/ed/4a09ed224b61b590bff34e5b1f3916f1.jpg
